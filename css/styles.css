@@ -79,15 +79,15 @@ body {
   align-items: center;
 }
 
-/*#slideup p{
-	font-size: 250px;
-	color: white;
-	transition: .1s;
-	mix-blend-mode:exclusion;
-	-moz-user-select: none
+#slideup p {
+  font-size: 250px;
+  color: white;
+  transition: .1s;
+  mix-blend-mode: exclusion;
+  -moz-user-select: none
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
