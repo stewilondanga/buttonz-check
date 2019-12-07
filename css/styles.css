@@ -41,22 +41,23 @@ body {
   z-index: 1;
 }
 
-/*.checkbox {
-	margin: 20px;
-	position: relative;
-	width: 25px;
-	height: 25px;
-	box-shadow: 0 0 0 0 #555, 0 0 0 0 black;
-	background: #ccc;
-	border-radius: 1;
-	z-index: 1;
-	transition: 0.15s;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
+.checkbox {
+  margin: 20px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0 0 0 0 #555, 0 0 0 0 black;
+  background: #ccc;
+  border-radius: 1;
+  z-index: 1;
+  transition: 0.15s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-.checkmark {
+
+/*.checkmark {
 	width: 13px;
 	height: 4px;
 	background: transparent;
