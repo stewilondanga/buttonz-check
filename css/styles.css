@@ -29,11 +29,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-.checkfunc {
+/*.checkfunc {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
