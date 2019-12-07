@@ -57,17 +57,18 @@ body {
   overflow: hidden;
 }
 
-/*.checkmark {
-	width: 13px;
-	height: 4px;
-	background: transparent;
-	position: absolute;
-	box-shadow: 0 0 #555, 0 0 #555, 0 0 #555;
-	transform: translatey(13px);
-	opacity: 0;
-	z-index: -1;
+.checkmark {
+  width: 13px;
+  height: 4px;
+  background: transparent;
+  position: absolute;
+  box-shadow: 0 0 #555, 0 0 #555, 0 0 #555;
+  transform: translatey(13px);
+  opacity: 0;
+  z-index: -1;
 }
-#slideup{
+
+/*#slideup{
 	background: #555;
 	width: 100%;
 	height: 100%;
