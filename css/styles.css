@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,74 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+* {
+	/*CSS RESET*/
+/*	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	background: #555;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+.checkfunc {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 1;
+}
+.checkbox {
+	margin: 20px;
+	position: relative;
+	width: 25px;
+	height: 25px;
+	box-shadow: 0 0 0 0 #555, 0 0 0 0 black;
+	background: #ccc;
+	border-radius: 1;
+	z-index: 1;
+	transition: 0.15s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.checkmark {
+	width: 13px;
+	height: 4px;
+	background: transparent;
+	position: absolute;
+	box-shadow: 0 0 #555, 0 0 #555, 0 0 #555;
+	transform: translatey(13px);
+	opacity: 0;
+	z-index: -1;
+}
+#slideup{
+	background: #555;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform: translatey(100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#slideup p{
+	font-size: 250px;
+	color: white;
+	transition: .1s;
+	mix-blend-mode:exclusion;
+	-moz-user-select: none
 }
 
 .containers {
