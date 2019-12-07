@@ -68,17 +68,18 @@ body {
   z-index: -1;
 }
 
-/*#slideup{
-	background: #555;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	transform: translatey(100%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+#slideup {
+  background: #555;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translatey(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#slideup p{
+
+/*#slideup p{
 	font-size: 250px;
 	color: white;
 	transition: .1s;
